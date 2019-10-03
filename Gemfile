@@ -33,7 +33,9 @@ gem 'rails-controller-testing'
 gem 'bcrypt', '3.1.12'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'faker',   '1.7.3'
+gem 'will_paginate', '~> 3.1.7'
+gem 'will_paginate-bootstrap', '1.0.0'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
