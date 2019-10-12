@@ -96,12 +96,12 @@ Rails.application.configure do
   host = 'https://young-plateau-29376.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-    :address        => 'smtp.sendgrid.net',
+    :address        => 'smtp.gmail.com',
     :port           => '587',
-    :authentication => :plain,
+    :authentication => :login,
     :user_name      => 'jsinghal694@gmail.com',
     :password       => '1234@@@@',
-    :domain         => 'heroku.com',
+    :domain         => 'gmail.com',
     :enable_starttls_auto => true
   }
 end
