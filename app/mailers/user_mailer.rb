@@ -7,12 +7,7 @@ class UserMailer < ApplicationMailer
   #
   def account_activation(user)
     @user = user
-
-<<<<<<< HEAD
     mail(to: @user.email, subject: "account_activation")
-=======
-    mail to: @user.email, subject: "account_activation"
->>>>>>> user-micropost
   end
 
   # Subject can be set in your I18n file at config/locales/en.yml
@@ -22,11 +17,6 @@ class UserMailer < ApplicationMailer
   #
   def password_reset(user)
     @user = user
-
-<<<<<<< HEAD
-    mail(to: @user.email, subject: "Password reset")
-=======
     mail to: @user.email, subject: "Password reset"
->>>>>>> user-micropost
   end
 end
