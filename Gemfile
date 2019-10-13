@@ -34,6 +34,8 @@ gem 'bcrypt', '3.1.12'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'faker',   '1.7.3'
+gem 'carrierwave',  '1.2.2'
+gem 'mini_magick',  '4.7.0'
 gem 'will_paginate', '~> 3.1.7'
 gem 'will_paginate-bootstrap', '1.0.0'
 # Reduces boot times through caching; required in config/boot.rb
@@ -63,6 +65,7 @@ end
 
 group :production do
   gem 'pg'
+  # gem 'fog', '1.42'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
